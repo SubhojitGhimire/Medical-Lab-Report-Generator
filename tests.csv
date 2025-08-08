@@ -1,0 +1,91 @@
+category,sub_category,test_name,normal_values,input_type,options,price
+HEMATOLOGY,Complete Blood Count,WBC,4000-11000mm^3,,,150
+HEMATOLOGY,Complete Blood Count,RBC,4x10^6 - 6x10^6 mm^3,,,150
+HEMATOLOGY,Complete Blood Count,Platelets,150000-450000mm^3,,,150
+HEMATOLOGY,Differential Count,Hb%,11-18g/m%,,,150
+HEMATOLOGY,Differential Count,ESR (Wintrobe),0-9 male/0-20female,,,100
+HEMATOLOGY,Differential Count,PCV,36-54%,,,100
+HEMATOLOGY,Differential Count,BT,1-6min.,,,100
+HEMATOLOGY,Differential Count,CT,5-10min.,,,100
+HEMATOLOGY,Differential Count,Neutrophil,40-75%,,,200
+HEMATOLOGY,Differential Count,Lymphocyte,20-45%,,,200
+HEMATOLOGY,Differential Count,Monocyte,2-10%,,,200
+HEMATOLOGY,Differential Count,Eosinophil,1-6%,,,200
+HEMATOLOGY,Differential Count,Basophil,0-1%,,,200
+HEMATOLOGY,Differential Count,MP/MF,,,,50
+HEMATOLOGY,Differential Count,Blood Grouping & Rh,,,,150
+HEMATOLOGY,SEROLOGY TEST,"HIV I, II",,select,"Negative, Positive",300
+HEMATOLOGY,SEROLOGY TEST,HBsAg,,select,"Negative, Positive",300
+HEMATOLOGY,SEROLOGY TEST,VDRL,,select,"Non-Reactive, Reactive",250
+HEMATOLOGY,SEROLOGY TEST,TPHA,,select,"Non-Reactive, Reactive",250
+HEMATOLOGY,SEROLOGY TEST,HCV,,select,"Negative, Positive",400
+HEMATOLOGY,SEROLOGY TEST,RA,,select,"Negative, Positive",200
+HEMATOLOGY,SEROLOGY TEST,ASO,,select,"Negative, Positive",200
+HEMATOLOGY,SEROLOGY TEST,CRP,,select,"Negative, Positive",200
+HEMATOLOGY,SEROLOGY TEST,H. Pylori,,select,"Negative, Positive",450
+HEMATOLOGY,WIDAL TEST,S. typhi 'O',,,,350
+HEMATOLOGY,WIDAL TEST,S. typhi 'H',,,,350
+HEMATOLOGY,WIDAL TEST,S. Paratyphi 'AH',,,,350
+HEMATOLOGY,WIDAL TEST,S. Paratyphi 'BH',,,,350
+HEMATOLOGY,Other Test,Other Test,,textarea,,
+BIOCHEMISTRY,General,B. Sugar (F),60-120mg%,,,100
+BIOCHEMISTRY,General,B. Sugar (P.P.),80-140mg%,,,100
+BIOCHEMISTRY,General,B. Sugar (R),60-150mg%,,,100
+BIOCHEMISTRY,General,HbA1c,"<8.0% Normal
+8.0-9.0% Good Control
+9.0-10.0% Fair Control
+>10.0% Poor Control",,,400
+BIOCHEMISTRY,General,S. Urea,18-45mg%,,,150
+BIOCHEMISTRY,General,S. Creatinine,0.4-1.4mg%,,,150
+BIOCHEMISTRY,General,Sodium,135-155mmol/l,,,150
+BIOCHEMISTRY,General,Potassium,3.5-5.5mmol/l,,,150
+BIOCHEMISTRY,General,S. Uric Acid,2-7mg% m/2-6mg% f,,,150
+BIOCHEMISTRY,General,S. Cholesterol,150-250mg%,,,200
+BIOCHEMISTRY,General,Triglyceride,up to 140mg%,,,200
+BIOCHEMISTRY,General,HDL Cholesterol,m35-55 f45-65mg%,,,200
+BIOCHEMISTRY,General,LDL Cholesterol,up to 150mg%,,,200
+BIOCHEMISTRY,General,VLDL,10-40mg%,,,200
+BIOCHEMISTRY,General,Amylase,up to 220U/L,,,250
+BIOCHEMISTRY,General,S. Bilirubin T,0.4-1.4mg%,,,150
+BIOCHEMISTRY,General,S. Bilirubin D,0-0.4mg%,,,150
+BIOCHEMISTRY,General,Total Protein,6-8g/dl,,,150
+BIOCHEMISTRY,General,Albumin,3.8-5.1g/dl,,,150
+BIOCHEMISTRY,General,SGPT (ALT),8-42 U/L,,,200
+BIOCHEMISTRY,General,SGOT (AST),8-37 U/L,,,200
+BIOCHEMISTRY,General,Alkaline Phosphate,64-306 U/L,,,200
+BIOCHEMISTRY,KOH MOUNT,Sputum For AFB: A,,,,150
+BIOCHEMISTRY,KOH MOUNT,Sputum For AFB: B,,,,150
+BIOCHEMISTRY,Other Test,MANTOUX TEST,,,,200
+PARASITOLOGY,URINE EXAMINATION - Macroscopic/Chemical Examination,Colour,,select,"Yellow ,Dark Yellow, Reddish, Custom",50
+PARASITOLOGY,URINE EXAMINATION - Macroscopic/Chemical Examination,Transparency,,select,"Clear, Slightly Turbid, Turbid, Custom",50
+PARASITOLOGY,URINE EXAMINATION - Macroscopic/Chemical Examination,Reaction,,,,50
+PARASITOLOGY,URINE EXAMINATION - Macroscopic/Chemical Examination,Albumin,,,,50
+PARASITOLOGY,URINE EXAMINATION - Macroscopic/Chemical Examination,Sugar,,,,50
+PARASITOLOGY,URINE EXAMINATION - Macroscopic/Chemical Examination,Ketone Body,,,,50
+PARASITOLOGY,URINE EXAMINATION - Macroscopic/Chemical Examination,Bile Pigment,,,,50
+PARASITOLOGY,URINE EXAMINATION - Microscopic Examination,RBC,/HPF,,,50
+PARASITOLOGY,URINE EXAMINATION - Microscopic Examination,Pus cells,/HPF,,,50
+PARASITOLOGY,URINE EXAMINATION - Microscopic Examination,Epithelial cells,/HPF,,,50
+PARASITOLOGY,URINE EXAMINATION - Microscopic Examination,Ca-oxalate,/HPF,,,50
+PARASITOLOGY,URINE EXAMINATION - Microscopic Examination,Amorphos phosphate/Urates,,,,50
+PARASITOLOGY,URINE EXAMINATION - Microscopic Examination,Cast,,,,50
+PARASITOLOGY,URINE EXAMINATION - Microscopic Examination,Others Finding,,textarea,,50
+PARASITOLOGY,STOOL EXAMINATION - Macroscopic Examination,Colour,,,,50
+PARASITOLOGY,STOOL EXAMINATION - Macroscopic Examination,Consistency,,,,50
+PARASITOLOGY,STOOL EXAMINATION - Macroscopic Examination,Blood,,,,50
+PARASITOLOGY,STOOL EXAMINATION - Macroscopic Examination,Mucous,,,,50
+PARASITOLOGY,STOOL EXAMINATION - Microscopic Examination,RBC,/HPF,,,50
+PARASITOLOGY,STOOL EXAMINATION - Microscopic Examination,Pus cells,/HPF,,,50
+PARASITOLOGY,STOOL EXAMINATION - Microscopic Examination,Macrophage,,,,50
+PARASITOLOGY,STOOL EXAMINATION - Microscopic Examination,Protozoal Parasites,,,,50
+PARASITOLOGY,STOOL EXAMINATION - Microscopic Examination,Helminthic Parasites,,,,50
+PARASITOLOGY,STOOL EXAMINATION - Microscopic Examination,Other Finding,,textarea,,50
+PARASITOLOGY,STOOL EXAMINATION - Microscopic Examination,Occult Blood Test,,,,100
+PREGNANCY TEST,Semen analysis,Volume,,,,100
+PREGNANCY TEST,Semen analysis,Color,,,,100
+PREGNANCY TEST,Semen analysis,PH,,,,100
+PREGNANCY TEST,Semen analysis,Viscosity,,,,100
+PREGNANCY TEST,Semen analysis,Morphology,>70%,,,100
+PREGNANCY TEST,Semen analysis,Motility,>80%,,,100
+PREGNANCY TEST,Semen analysis,Sperm Count,(6x10^7 - 15x10^7/ml),,,100
+PREGNANCY TEST,Semen analysis,Others,,textarea,,100

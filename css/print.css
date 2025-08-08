@@ -1,0 +1,54 @@
+@media print {
+    body > header, body > footer, .report-actions, .btn, #btn-back-to-history, #btn-back-to-search, #btn-back-to-home, #error-back-to-home {
+        display: none !important;
+    }
+    
+    .print-header {
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #000;
+        margin-bottom: 1rem;
+    }
+    .print-header .logo { height: 50px; }
+    .print-header h1 { font-size: 1.5rem; color: #0d47a1; margin: 0 0 0 1rem;}
+    .print-header .contact-info { text-align: right; }
+    .print-header .contact-info p { margin: 0; font-size: 9pt; }
+    .logo-container { display: flex; align-items: center; }
+
+    body, main, #app {
+        margin: 0; padding: 0; background-color: #fff !important;
+        box-shadow: none; font-size: 10pt;
+    }
+    .report-view-container {
+        width: 100%; box-shadow: none; border: none; color: #000 !important; padding: 0;
+    }
+    @page { size: A4; margin: 1.5cm; }
+
+    h2, h3, h4 { page-break-after: avoid; margin-top: 0.5rem; margin-bottom: 0.25rem; }
+    table { page-break-inside: avoid; }
+    .patient-details-header.report-view { padding: 0.5rem; margin-bottom: 1rem; }
+    .results-table th, .results-table td { padding: 0.25rem 0.4rem; }
+    .report-footer { margin-top: 2rem; }
+    
+    .bill-table .default-price-cell {
+        display: none;
+    }
+    .bill-table tfoot .total-label {
+        text-align: right;
+        padding-right: 1rem;
+    }
+
+    .price-input, #currency-selector {
+        border: none !important;
+        background-color: transparent !important;
+        box-shadow: none !important;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        display: inline !important;
+        width: auto !important;
+        text-align: left;
+    }
+}
