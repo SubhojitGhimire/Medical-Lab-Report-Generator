@@ -7,6 +7,8 @@
 
 A simple, modern, and portable desktop software application designed to be used offline in a single device to manage patient registration, create detailed lab reports, and generate invoices. It runs entirely in a web browser without needing an internet connection or any complex installation.
 
+![A2Z_Lab_Demo_LandingPage](https://github.com/user-attachments/assets/dabe2141-6964-4430-86c4-f31bd03126e2)
+
 ---
 
 ## Features
@@ -78,11 +80,11 @@ You can easily customize key aspects of the application.
 
 ## Screenshots
 
-![A2Z_Lab_Demo_LandingPage](https://github.com/user-attachments/assets/e258c674-8e10-4d05-9976-ca067fb30989)
+<img width="3900" height="1021" alt="A2Z_Lab_Demo_2" src="https://github.com/user-attachments/assets/e4f09094-525e-4696-bec4-91d4d659a778" />
 
-<img width="3900" height="1021" alt="A2Z_Lab_Demo_2" src="https://github.com/user-attachments/assets/8304b5cd-2669-454d-8f15-17be635680e2" />
+<br>
 
-![A2Z_Lab_Demo_45](https://github.com/user-attachments/assets/709d8edf-c455-422a-bdd9-889638c5958f)
+![A2Z_Lab_Demo_45](https://github.com/user-attachments/assets/2d2183e6-dd5f-47e9-8c02-3180415f8740)
 
 <h1></h1>
 
